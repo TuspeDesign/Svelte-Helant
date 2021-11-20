@@ -1,0 +1,81 @@
+{
+	"site": "Tilitoimisto Helant",
+	"description": "Tilitoimisto Helant on täyden palvelun tilitoimisto Lohjalla. Tarjoamme monipuoliset kirjanpito-, palkanlaskenta- ja tilitoimistopalvelut yrityksille ja yhdistyksille.",
+	"hero": "Tilitoimisto Helant on ammattitaitoinen ja joustava tili- ja toimistopalveluita tarjoava yritys Lohjan Pusulassa. Tarjolla laadukasta työtä yli kymmenen vuoden kokemuksella. Palvelemme asiakkaitamme koko Suomen alueella. Omistajayrittäjänä toimii Heli Anttila.\n\n\"Olen ollut taloushallintoalalla vuodesta 1990, työskennellen neljässä tilitoimistossa ja kahdessa yksityisessä osakeyhtiössä. Oma tilitoimisto minulla on ollut vuodesta 2007.\"",
+	"photos": {
+		"hero": {
+			"src": "hero",
+			"alt": "Jätä taloushuolet osaavalle kirjanpitäjälle ja keskity bisnekseen."
+		},
+		"contact": {
+			"src": "helianttila",
+			"alt": "Yrittäjä Heli Anttila"
+		}
+	},
+	"action": {
+		"title": "Kuinka voimme palvella?",
+		"content": "Soitellaan! Voit jättää myös meille viestiä niin olemme sinuun yhteydessä!",
+		"button": "Ota yhteyttä"
+	},
+	"services": {
+		"title": "Yli kymmenen vuoden kokemuksella",
+		"content": "Jos koet taloushallinnon vaikeaksi tai rasittavaksi, tuo se tilitoimistoon asiantuntijan tehtäväksi. Voit jättää kirjanpidon, verotuksen ja muut taloushallinnon asiat yritykseni hoidettavaksi ja keskittyä itse siihen, mikä on toimintasi tarkoitus.",
+		"items": [
+			{
+				"title": "Kirjanpidot",
+				"content": "Kun toimitat kaikki tarvittavat tositteet meille, hoidamme kirjanpidon ja käytännön asiat eteenpäin. Hoidamme puolestasi tarvittavat valvonta-ilmoitukset verottajalle."
+			},
+			{
+				"title": "Palkanlaskennat",
+				"content": "Hoidamme palkanlaskennan sekä palkkojen maksun tarvittaessa sekä tarvitsemanne kuukausi- sekä vuosi-ilmoitukset."
+			},
+			{
+				"title": "Tilinpäätökset",
+				"content": "Voit jättää vuosittaisen tilinpäätöksen sekä veroilmoitukset hoidettavaksemme ammattitaidolla ja täsmällisesti. Teemme puolestasi tarvittavat ilmoitukset kaupparekisteriin."
+			},
+			{
+				"title": "Veroasiat",
+				"content": "Etsimme yhdessä asiakkaan kanssa edullisinta verotuksellista vaihtoehtoa mm. yritysmuotoon ja voitonjakoon liittyvissä kysymyksissä."
+			}
+		]
+	},
+	"clients": {
+		"title": "Asiakaskokemuksia",
+		"items": [
+			{
+				"name": "Jussi Makkonen",
+				"company": "Jussi Makkonen Oy",
+				"content": "Tilitoimisto Helant on toiminut yritykseni kirjanpitäjänä vuodesta 2011 alkaen. Helant on tarjonnut luotettavaa, asiantuntevaa ja kohtuuhintaista palvelua, mikä on ollut aloittavalle yksityisyrittäjälle merkittävä apu yritystoiminnan kehittämisessä. Suosittelen Tilitoimisto Helant -yrityksen tarjoamia palveluita lämpimästi."
+			},
+			{
+				"name": "Eeva Halme",
+				"company": "Pisara ry",
+				"content": "Suosittelemme lämpimästi Heli Anttilan Tilitoimisto Helantia. Meillä on pitkä asiakassuhde yhdistyksemme talousasioiden ja kirjanpidon hoidosta yhdistyksemme perustamista saakka, aina vuodesta 1999 lähtien. Työ on käynyt aina todella ripeästi ja ammattitaidolla. Yhteistyö on ollut sujuvaa ja ystävällistä sanoisinko sydämellistä."
+			},
+			{
+				"name": "Elli Oinonen-Edén",
+				"company": "Monola-seura ry:n puheenjohtaja\nMonola-hankkeiden projektipäällikkö",
+				"content": "Monola-seura ry:n ja sen hallinnoimien Leader-rahoitteisten Monola-hankkeiden (2016-2018) vuosia kestänyt yhteistyö Tilitoimisto Helantin kanssa on toiminut joustavasti, luotettavasti ja aina sovittujen aikataulujen mukaisesti. Esimerkiksi jopa ihan viime hetkellä, kiireen keskeltä, lähetetyt palkanlaskentapyynnöt Heli on sinnikkäästi hoitanut, ihmeen tavoin, ajallaan. Heli on asiantuntevasti hoitanut myös EU-tuella rahoitettavan toiminnan kirjanpitoon liittyvät erityisraportoinnit, väliin hyvinkin vaativat.\n\nJa vaikka välimatkaa on satoja kilometrejä, enkä ole Heliä koskaan kasvotusten tavannut, luottamus on täydellinen. Sähköinen yhteistyö sujuu erinomaisesti - se on tätä päivää! Kiitos Heli!"
+			},
+			{
+				"name": "Irma Huovinen",
+				"content": "Karkkilan Kodinhoito- ja siisteyspalvelu Oy ja Tilitoimisto Helant solmivat kirjanpitosopimuksen 1.10.2016. Sopimuksen mukaan Tilitoimisto Helant hoitaa yrityksen kirjanpidon, palkat, myyntisaamisten seurannan, veroilmoituksen ja muut sovittavat talousasiat.\n\nOlen ollut erittäin tyytyväinen yhteistyöhön Heli Anttilan kanssa. Helillä on asiakaslähtöinen toimintatapa, palvelu on ammattitaitoista, luotettavaa sekä joustavaa. Kommutointi on luontevaa ja helppoa. Koska toimin yksin yrittäjänä oli työpanokseni lähes kokonaisuudessaan asiakastyössä. Siksi pidin ensiarvoisen tärkeänä, että yrityksen taloushallinto oli ammattilaisen hoidossa. Näin ollen kaikki taloudenpitoon liittyvät asiat hoituivat oikein laskettuina ja oikeassa aikataulussansa jolloin ikäviltä yllätyksiltä mm. verojen suhteen vältyttiin. Tai jos esim. verottaja pyysi lisäselvitystä, Heli hoiti asian.\n\nYrityksen toiminta päättyi 31.3.2018. Yrityksen toiminnan lopettaminen sujui todella hyvin, suunnitelman mukaisessa aikataulussa eikä mitään lisäselvityksiä tai yllätyksiä tullut, tästä erikoiskiitos.\n\nYhteistyöhömme perustuen voin suositella Heliä ja hänen yritystään Tilitoimisto Helant yrityksen kirjanpitotehtäviin."
+			},
+			{
+				"name": "Tmi Asko Huovinen",
+				"content": "Aloitin toiminimiyrittäjänä 1/2011. Joulukuussa 2010 kävin Helin luona puhumassa asiasta ja sain käytännön ohjeita yrityksen perustamiseen. Ohjeistus oli selkeää, ei ns. kapulakieltä, vaan ymmärrettävää. Siitä oli helppo lähteä yrittämään.\n\nHeli hoitaa yritykseni kirjanpidon, veroilmoituksen ym. ammattitaitoisesti. Yhteistyö on sujunut moitteettomasti ja jouhevasti, aina saa apua pienempäänkin kysymykseen.\n\nVoin lämpimästi suositella Heli Anttilaa kirjanpitotehtäviin."
+			}
+		]
+	},
+	"contact": {
+		"title": "Yhteystiedot",
+		"street": "Lehtolantie 3",
+		"postal": "03850",
+		"area": "Lohja",
+		"phone": "040 7253 523",
+		"email": "heli.anttila@helant.fi",
+		"id": "1634655-9",
+		"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1966.2766461925455!2d23.976833952147842!3d60.47366152569866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dd0209fea64ff%3A0x7c1205c75fe5050a!2sTilitoimisto+Helant!5e0!3m2!1sen!2sfi!4v1480374593976",
+		"mapTitle": "Katso kartalta missä Tilitoimisto Helant sijaitsee"
+	}
+}

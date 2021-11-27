@@ -49,14 +49,14 @@
 
 		
 
-		<link rel="modulepreload" href="/_app/start-28ac2412.js">
+		<link rel="modulepreload" href="/_app/start-edba5cc0.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-37e72960.js">
 		<link rel="modulepreload" href="/_app/layout.svelte-7dc33d0b.js">
-		<link rel="modulepreload" href="/_app/pages/index.svelte-d22dd36f.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-fb85f3df.js">
 		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
 
 		<script type="module">
-			import { start } from "/_app/start-28ac2412.js";
+			import { start } from "/_app/start-edba5cc0.js";
 			start({
 				target: document.body,
 				paths: {"base":"","assets":""},
@@ -70,7 +70,7 @@
 					error: null,
 					nodes: [
 						import("/_app/layout.svelte-7dc33d0b.js"),
-						import("/_app/pages/index.svelte-d22dd36f.js")
+						import("/_app/pages/index.svelte-fb85f3df.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -100,18 +100,22 @@
 
 		<div id="action"><div id="actionContent" class="grid h-full container"><div class="content grid"><div class="self-center inline-block"><h3>Kuinka voimme palvella?</h3>
 						<span>Soitellaan! Voit jättää myös meille viestiä niin olemme sinuun yhteydessä!</span></div></div>
-				<div class="button grid"><div class="self-center"><button>Ota yhteyttä</button></div></div></div></div></section>
+				<div class="button grid"><div class="self-center"><button class="uppercase">Ota yhteyttä</button></div></div></div></div></section>
 
 	<section id="services"><div id="servicesContent" class="container"><div class="title"><h2>Yli kymmenen vuoden kokemuksella</h2>
 				<div class="content">Jos koet taloushallinnon vaikeaksi tai rasittavaksi, tuo se tilitoimistoon asiantuntijan tehtäväksi. Voit jättää kirjanpidon, verotuksen ja muut taloushallinnon asiat yritykseni hoidettavaksi ja keskittyä itse siihen, mikä on toimintasi tarkoitus.</div></div>
 
-			<ul class="grid" aria-label="Palvelumme"><li class="block"><h3>Kirjanpidot</h3>
+			<ul class="grid" aria-label="Palvelumme"><li class="block"><div class="icon icon-box"></div>
+						<h3 class="uppercase text-blue">Kirjanpidot</h3>
 						<div class="content">Kun toimitat kaikki tarvittavat tositteet meille, hoidamme kirjanpidon ja käytännön asiat eteenpäin. Hoidamme puolestasi tarvittavat valvonta-ilmoitukset verottajalle.</div>
-					</li><li class="block"><h3>Palkanlaskennat</h3>
+					</li><li class="block"><div class="icon icon-calc"></div>
+						<h3 class="uppercase text-blue">Palkanlaskennat</h3>
 						<div class="content">Hoidamme palkanlaskennan sekä palkkojen maksun tarvittaessa sekä tarvitsemanne kuukausi- sekä vuosi-ilmoitukset.</div>
-					</li><li class="block"><h3>Tilinpäätökset</h3>
+					</li><li class="block"><div class="icon icon-chart-bar"></div>
+						<h3 class="uppercase text-blue">Tilinpäätökset</h3>
 						<div class="content">Voit jättää vuosittaisen tilinpäätöksen sekä veroilmoitukset hoidettavaksemme ammattitaidolla ja täsmällisesti. Teemme puolestasi tarvittavat ilmoitukset kaupparekisteriin.</div>
-					</li><li class="block"><h3>Veroasiat</h3>
+					</li><li class="block"><div class="icon icon-briefcase"></div>
+						<h3 class="uppercase text-blue">Veroasiat</h3>
 						<div class="content">Etsimme yhdessä asiakkaan kanssa edullisinta verotuksellista vaihtoehtoa mm. yritysmuotoon ja voitonjakoon liittyvissä kysymyksissä.</div>
 					</li></ul></div></section>
 

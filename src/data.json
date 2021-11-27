@@ -23,19 +23,23 @@
 		"items": [
 			{
 				"title": "Kirjanpidot",
-				"content": "Kun toimitat kaikki tarvittavat tositteet meille, hoidamme kirjanpidon ja käytännön asiat eteenpäin. Hoidamme puolestasi tarvittavat valvonta-ilmoitukset verottajalle."
+				"content": "Kun toimitat kaikki tarvittavat tositteet meille, hoidamme kirjanpidon ja käytännön asiat eteenpäin. Hoidamme puolestasi tarvittavat valvonta-ilmoitukset verottajalle.",
+				"icon": "box"
 			},
 			{
 				"title": "Palkanlaskennat",
-				"content": "Hoidamme palkanlaskennan sekä palkkojen maksun tarvittaessa sekä tarvitsemanne kuukausi- sekä vuosi-ilmoitukset."
+				"content": "Hoidamme palkanlaskennan sekä palkkojen maksun tarvittaessa sekä tarvitsemanne kuukausi- sekä vuosi-ilmoitukset.",
+				"icon": "calc"
 			},
 			{
 				"title": "Tilinpäätökset",
-				"content": "Voit jättää vuosittaisen tilinpäätöksen sekä veroilmoitukset hoidettavaksemme ammattitaidolla ja täsmällisesti. Teemme puolestasi tarvittavat ilmoitukset kaupparekisteriin."
+				"content": "Voit jättää vuosittaisen tilinpäätöksen sekä veroilmoitukset hoidettavaksemme ammattitaidolla ja täsmällisesti. Teemme puolestasi tarvittavat ilmoitukset kaupparekisteriin.",
+				"icon": "chart-bar"
 			},
 			{
 				"title": "Veroasiat",
-				"content": "Etsimme yhdessä asiakkaan kanssa edullisinta verotuksellista vaihtoehtoa mm. yritysmuotoon ja voitonjakoon liittyvissä kysymyksissä."
+				"content": "Etsimme yhdessä asiakkaan kanssa edullisinta verotuksellista vaihtoehtoa mm. yritysmuotoon ja voitonjakoon liittyvissä kysymyksissä.",
+				"icon": "briefcase"
 			}
 		]
 	},

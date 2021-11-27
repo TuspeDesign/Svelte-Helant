@@ -59,7 +59,7 @@
 				</div>
 				<div class="button grid">
 					<div class="self-center">
-						<button>
+						<button class="uppercase">
 							{data.action.button}
 						</button>
 					</div>
@@ -78,7 +78,8 @@
 			<ul class="grid" aria-label="Palvelumme">
 				{#each data.services.items as e}
 					<li class="block">
-						<h3>{e.title}</h3>
+						<div class={"icon icon-" + e.icon} />
+						<h3 class="uppercase text-blue">{e.title}</h3>
 						<div class="content">{e.content}</div>
 					</li>
 				{/each}

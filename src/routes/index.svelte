@@ -59,9 +59,13 @@
 				</div>
 				<div class="button grid">
 					<div class="self-center">
-						<button class="uppercase">
+						<a
+							class="inline-block uppercase"
+							href="#yhteys"
+							rel="nofollow"
+						>
 							{data.action.button}
-						</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -87,7 +91,7 @@
 		</div>
 	</section>
 
-	<section id="contact">
+	<section id="yhteys">
 		<div id="contactContent" class="container grid">
 			<div class="inner grid">
 				<picture class="block">

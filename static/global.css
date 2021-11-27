@@ -24,7 +24,7 @@ ul,
 h1,
 #action h3,
 #reviews h2,
-#contact h3 {
+#contactContent h3 {
 	margin: 0;
 }
 
@@ -44,8 +44,9 @@ h2 {
 	font-size: 1.2rem;
 }
 
-#contact h3 {
+#contactContent h3 {
 	font-size: 1.2rem;
+	margin: 0
 }
 
 ul {
@@ -159,13 +160,14 @@ iframe {
 	border: 0;
 }
 
-#actionContent button {
+#actionContent a {
 	border: 0;
 	color: var(--white);
 	background: #ea7d00;
 	padding: 15px 40px;
 	font-size: 1rem;
 	border-radius: 10px;
+	text-decoration: none;
 }
 
 .uppercase { text-transform: uppercase }
@@ -183,7 +185,7 @@ iframe {
 	font-size: 0.9rem;
 }
 
-#contact img {
+#contactContent img {
 	border-radius: 50%;
 	width: 170px;
 	height: 170px;
@@ -234,8 +236,7 @@ img {
 		padding: 3rem 1.5rem
 	}
 	#actionContent {
-		padding-top: 1.5rem;
-		padding-bottom: 1.5rem;
+		padding: 1.5rem;
 		text-align: center;
 		gap: 1.5rem
 	}

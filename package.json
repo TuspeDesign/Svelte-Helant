@@ -1,6 +1,16 @@
 {
   "name": "helant",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "A static search engine optimized website for accounting firm Helant powered by Svelte Kit.",
+  "homepage": "https://helant.fi",
+  "bugs": "https://github.com/TuspeDesign/Svelte-Helant/issues",
+  "license": "GNU GPL",
+  "private": false,
+  "author": {
+    "name": "Timo Anttila",
+    "email": "code@tuspe.com",
+    "url": "https://timoanttila.com"
+  },
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",

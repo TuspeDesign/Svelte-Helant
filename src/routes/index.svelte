@@ -1,6 +1,5 @@
 <script>
 	import data from "../data.json";
-	import Photo from "../img.svelte";
 
 	function parseHTML(e) {
 		return e.replace(/\n/g, "<br />");
@@ -16,7 +15,39 @@
 			</div>
 		</div>
 
-		<Photo name={data.photos.hero.src} alt={data.photos.hero.alt} />
+		<picture class="block">
+			<source
+				srcset="/hero-360.webp"
+				media="(max-width:500px)"
+				type="image/webp"
+			/>
+			<source
+				srcset="/hero-360.jpg"
+				media="(max-width:500px)"
+				type="image/jpeg"
+			/>
+			<source
+				srcset="/hero-768.webp"
+				media="(max-width:768px)"
+				type="image/webp"
+			/>
+			<source
+				srcset="/hero-768.jpg"
+				media="(max-width:768px)"
+				type="image/jpeg"
+			/>
+			<source
+				srcset="/hero.webp"
+				media="(min-width:768px)"
+				type="image/webp"
+			/>
+			<source
+				srcset="/hero.webp"
+				media="(min-width:768px)"
+				type="image/webp"
+			/>
+			<img class="block" src="/hero.jpg" alt={data.photos.hero.alt} />
+		</picture>
 
 		<div id="action">
 			<div id="actionContent" class="grid h-full container">
@@ -58,10 +89,22 @@
 	<section id="contact">
 		<div id="contactContent" class="container grid">
 			<div class="inner grid">
-				<Photo
-					name={data.photos.contact.src}
-					alt={data.photos.contact.alt}
-				/>
+				<picture class="block">
+					<source
+						srcset={"/" + data.photos.contact.src + ".webp"}
+						type="image/webp"
+					/>
+					<source
+						srcset={"/" + data.photos.contact.src + ".jpg"}
+						type="image/jpeg"
+					/>
+					<img
+						class="block"
+						src={"/" + data.photos.contact.src + ".jpg"}
+						alt={data.photos.contact.alt}
+					/>
+				</picture>
+
 				<div class="grid">
 					<div class="self-center">
 						<h3>{data.site}</h3>

@@ -49,14 +49,14 @@
 
 		
 
-		<link rel="modulepreload" href="/_app/start-ebb97ab2.js">
+		<link rel="modulepreload" href="/_app/start-28ac2412.js">
 		<link rel="modulepreload" href="/_app/chunks/vendor-37e72960.js">
 		<link rel="modulepreload" href="/_app/layout.svelte-7dc33d0b.js">
-		<link rel="modulepreload" href="/_app/pages/index.svelte-0b5d0e52.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-d22dd36f.js">
 		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
 
 		<script type="module">
-			import { start } from "/_app/start-ebb97ab2.js";
+			import { start } from "/_app/start-28ac2412.js";
 			start({
 				target: document.body,
 				paths: {"base":"","assets":""},
@@ -70,7 +70,7 @@
 					error: null,
 					nodes: [
 						import("/_app/layout.svelte-7dc33d0b.js"),
-						import("/_app/pages/index.svelte-0b5d0e52.js")
+						import("/_app/pages/index.svelte-d22dd36f.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -90,9 +90,13 @@
 <section id="hero" class="relative"><div id="caption" class="grid"><div id="captionContent" class="self-center text-light"><h1>Tilitoimisto Helant</h1>
 				<div class="content"><!-- HTML_TAG_START -->Tilitoimisto Helant on ammattitaitoinen ja joustava tili- ja toimistopalveluita tarjoava yritys Lohjan Pusulassa. Tarjolla laadukasta työtä yli kymmenen vuoden kokemuksella. Palvelemme asiakkaitamme koko Suomen alueella. Omistajayrittäjänä toimii Heli Anttila.<br /><br />"Olen ollut taloushallintoalalla vuodesta 1990, työskennellen neljässä tilitoimistossa ja kahdessa yksityisessä osakeyhtiössä. Oma tilitoimisto minulla on ollut vuodesta 2007."<!-- HTML_TAG_END --></div></div></div>
 
-		<picture class="block"><source srcset="/hero.webp" type="image/webp">
-	<source srcset="/hero.jpg" type="image/jpeg">
-	<img class="block" src="/hero.jpg" alt="Jätä taloushuolet osaavalle kirjanpitäjälle ja keskity bisnekseen."></picture>
+		<picture class="block"><source srcset="/hero-360.webp" media="(max-width:500px)" type="image/webp">
+			<source srcset="/hero-360.jpg" media="(max-width:500px)" type="image/jpeg">
+			<source srcset="/hero-768.webp" media="(max-width:768px)" type="image/webp">
+			<source srcset="/hero-768.jpg" media="(max-width:768px)" type="image/jpeg">
+			<source srcset="/hero.webp" media="(min-width:768px)" type="image/webp">
+			<source srcset="/hero.webp" media="(min-width:768px)" type="image/webp">
+			<img class="block" src="/hero.jpg" alt="Jätä taloushuolet osaavalle kirjanpitäjälle ja keskity bisnekseen."></picture>
 
 		<div id="action"><div id="actionContent" class="grid h-full container"><div class="content grid"><div class="self-center inline-block"><h3>Kuinka voimme palvella?</h3>
 						<span>Soitellaan! Voit jättää myös meille viestiä niin olemme sinuun yhteydessä!</span></div></div>
@@ -112,8 +116,9 @@
 					</li></ul></div></section>
 
 	<section id="contact"><div id="contactContent" class="container grid"><div class="inner grid"><picture class="block"><source srcset="/helianttila.webp" type="image/webp">
-	<source srcset="/helianttila.jpg" type="image/jpeg">
-	<img class="block" src="/helianttila.jpg" alt="Yrittäjä Heli Anttila"></picture>
+					<source srcset="/helianttila.jpg" type="image/jpeg">
+					<img class="block" src="/helianttila.jpg" alt="Yrittäjä Heli Anttila"></picture>
+
 				<div class="grid"><div class="self-center"><h3>Tilitoimisto Helant</h3>
 						<div class="content">040 7253 523<br>
 							heli.anttila@helant.fi<br>
